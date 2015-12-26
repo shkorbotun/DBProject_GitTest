@@ -1,6 +1,7 @@
 USE AdventureWorks2008R2
 GO
-SELECT [DepartmentID]
+SELECT top 1000
+	   [DepartmentID]
       ,[Name]
       ,[GroupName]
       ,[ModifiedDate]
