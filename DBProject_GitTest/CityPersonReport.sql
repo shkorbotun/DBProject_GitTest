@@ -1,6 +1,6 @@
 USE [AdventureWorks2008R2]
 GO
-SELECT		TOP 1000
+SELECT		
 			[City]		As CityName
 			,COUNT(*)	AS TotalPersons
 FROM		[Person].[Address]
