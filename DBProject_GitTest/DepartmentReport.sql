@@ -4,4 +4,4 @@ SELECT		[GroupName]
 			,count(*) As DepartmentNumber
 FROM		[HumanResources].[Department]
 GROUP BY	[GroupName]
-ORDER BY	[GroupName]
+ORDER BY	DepartmentNumber
