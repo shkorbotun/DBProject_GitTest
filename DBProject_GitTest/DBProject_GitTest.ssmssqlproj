@@ -15,18 +15,6 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
         </ConnectionNode>
-        <ConnectionNode Name="localhost\MSSQLSERVER2008:gooddata">
-          <Created>2015-12-26T01:57:27.2511408-08:00</Created>
-          <Type>SQL</Type>
-          <Server>localhost\MSSQLSERVER2008</Server>
-          <UserName>gooddata</UserName>
-          <Authentication>SQL</Authentication>
-          <InitialDB />
-          <LoginTimeout>15</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName />
-        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
@@ -38,9 +26,9 @@
           <FullPath>DepartmentReport.sql</FullPath>
         </FileNode>
         <FileNode Name="Departments.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost\MSSQLSERVER2008:False:gooddata</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>localhost\MSSQLSERVER2008</AssociatedConnSrvName>
-          <AssociatedConnUserName>gooddata</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>Departments.sql</FullPath>
         </FileNode>
       </Items>
