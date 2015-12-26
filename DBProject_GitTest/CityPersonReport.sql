@@ -1,7 +1,8 @@
 USE [AdventureWorks2008R2]
 GO
-SELECT		[City]		As CityName
+SELECT		TOP 1000
+			[City]		As CityName
 			,COUNT(*)	AS TotalPersons
 FROM		[Person].[Address]
 GROUP BY	[City]
-ORDER BY	Persons DESC
+ORDER BY	Persons ASC
