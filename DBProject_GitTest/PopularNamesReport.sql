@@ -11,7 +11,8 @@ condition as
 (SELECT distinct TotalNumber 
  FROM core_set)
  
-SELECT	*
+SELECT	[FirstName]
+		,[TotalNumber]
 FROM	core_set
 WHERE	TotalNumber in
 
