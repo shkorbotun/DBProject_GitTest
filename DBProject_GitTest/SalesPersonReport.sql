@@ -1,6 +1,7 @@
 USE [AdventureWorks2008R2]
 GO
-
+WITH core_set as 
+(
 SELECT	 [SalesTerritory]
 		,[JobTitle]
 		,[FullName]
@@ -15,5 +16,8 @@ SELECT	 [SalesTerritory]
 
 FROM	[Sales].[vSalesPersonSalesByFiscalYears]
 
-ORDER BY	 [SalesTerritory]
-			,Total desc
+)
+SELECT	*
+FROM	core_set
+WHERE	Rank_Total = 1
+Order by [SalesTerritory]
