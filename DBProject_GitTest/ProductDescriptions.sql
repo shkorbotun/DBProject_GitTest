@@ -3,5 +3,8 @@ GO
 
 SELECT	 [Name]
 		,[Summary]
+		,[WarrantyPeriod]
+		,[WarrantyDescription]
+		,[MaintenanceDescription]
 
 FROM	 [Production].[vProductModelCatalogDescription]
