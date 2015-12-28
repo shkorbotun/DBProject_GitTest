@@ -55,11 +55,11 @@
           <AssociatedConnUserName />
           <FullPath>PopularNamesReport.sql</FullPath>
         </FileNode>
-        <FileNode Name="EmployeeReportDraft.sql">
+        <FileNode Name="EmployeeReport.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost\MSSQLSERVER2008:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>localhost\MSSQLSERVER2008</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>EmployeeReportDraft.sql</FullPath>
+          <FullPath>EmployeeReport.sql</FullPath>
         </FileNode>
         <FileNode Name="SalesPersonReport.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost\MSSQLSERVER2008:True</AssociatedConnectionMoniker>
