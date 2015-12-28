@@ -9,7 +9,7 @@ FROM	[HumanResources].[vEmployee]
 GROUP BY [JobTitle]
 )
 
-SELECT	ROW_NUMBER() over(order by [JobTitle])
+SELECT	ROW_NUMBER() over(order by [JobTitle]) As RowNumber
 		,[JobTitle]
 		,Total
 		,ROUND(cast(Total as float)/(SELECT SUM(Total) FROM core_set)*100,1) As ShareOfTotal
