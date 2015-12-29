@@ -3,7 +3,7 @@ GO
 WITH core_set as
 (
 SELECT	[JobTitle]
-		,COUNT(*) As Total
+		,COUNT(*) As PersonTotal
 
 FROM	[HumanResources].[vEmployee]
 GROUP BY [JobTitle]
@@ -11,6 +11,6 @@ GROUP BY [JobTitle]
 
 SELECT	ROW_NUMBER() over(order by [JobTitle]) As RowNumber
 		,[JobTitle]
-		,Total
-		,ROUND(cast(Total as float)/(SELECT SUM(Total) FROM core_set)*100,1) As ShareOfTotal
+		,PersonTotal
+		,ROUND(cast(PersonTotal as float)/(SELECT SUM(PersonTotal) FROM core_set)*100,1) As ShareOfTotal
 FROM	core_set
