@@ -1,10 +1,10 @@
 USE [AdventureWorks2008R2]
 GO
 SELECT	 [CountryRegionName]
-		,[City]
-		,COUNT(*) As Total
+		,COUNT([City]) As TotalStores
+		,COUNT(distinct [City]) As TotalCities
 FROM	 [Sales].[vStoreWithAddresses]
 GROUP BY [CountryRegionName]
-		,[City]
-ORDER BY [CountryRegionName]
-		,[City]
+ORDER BY [CountryRegionName] desc
+
+
