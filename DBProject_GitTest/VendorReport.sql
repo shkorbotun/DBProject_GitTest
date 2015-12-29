@@ -1,7 +1,7 @@
 USE [AdventureWorks2008R2]
 GO
 
-SELECT	StateProvinceName
+SELECT	 StateProvinceName As State
 		,COUNT(*) As Vendors
 
 FROM	[Purchasing].[vVendorWithAddresses]
