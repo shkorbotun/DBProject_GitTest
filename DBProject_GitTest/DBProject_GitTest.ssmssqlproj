@@ -79,6 +79,12 @@
           <AssociatedConnUserName />
           <FullPath>SalesPersonReport.sql</FullPath>
         </FileNode>
+        <FileNode Name="VendorReport.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost\MSSQLSERVER2008:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost\MSSQLSERVER2008</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VendorReport.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
