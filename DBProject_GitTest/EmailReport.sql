@@ -1,5 +1,5 @@
 /****** Script for SelectTopNRows command from SSMS  ******/
-SELECT TOP 1000 [BusinessEntityID]
+SELECT TOP 10 [BusinessEntityID]
       ,[EmailAddressID]
       ,[EmailAddress]
       ,[rowguid]
