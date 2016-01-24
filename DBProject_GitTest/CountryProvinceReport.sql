@@ -5,3 +5,4 @@ SELECT	 [CountryRegionName]
 		,[StateProvinceName]
 		
 FROM	[Person].[vStateProvinceCountryRegion]
+ORDER BY [CountryRegionName] DESC
