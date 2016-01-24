@@ -1,7 +1,7 @@
 USE [AdventureWorks2008R2]
 GO
 SELECT		
-			[City]		As CityName
+			[City]		As CityFullName
 			,COUNT(*)	AS TotalPersons
 FROM		[Person].[Address]
 GROUP BY	[City]
