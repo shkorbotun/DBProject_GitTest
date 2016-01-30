@@ -8,3 +8,4 @@ SELECT	 [Name]
 		,[MaintenanceDescription]
 
 FROM	 [Production].[vProductModelCatalogDescription]
+ORDER BY [Name] ASC
